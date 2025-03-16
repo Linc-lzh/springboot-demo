@@ -1,0 +1,11 @@
+spring:
+  dtp:
+    executors:
+      # 线程池1
+      - poolName: dtpExecutor1
+        corePoolSize: 5
+        maximumPoolSize: 10
+      # 线程池2
+      - poolName: dtpExecutor2
+        corePoolSize: 2
+        maximumPoolSize: 15

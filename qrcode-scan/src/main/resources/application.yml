@@ -1,0 +1,25 @@
+
+spring:
+  # thymeleaf前后缀
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+    enabled: true
+    encoding: UTF-8
+    mode: HTML5
+
+
+
+server:
+  port: 8999
+
+# redis
+redis:
+  host: 127.0.0.1
+  port: 6379
+  timeout: 100
+  password:
+  pool-max-active: 2000
+  pool-max-idle: 1000
+  pool-max-wait: 10000
